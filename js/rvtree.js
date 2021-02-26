@@ -66,6 +66,8 @@ var RVTree =
 
 	_processList: function(ul, isRoot)
 	{
+		if( ul ==  null ){ return; }
+		
 		if (!ul.childNodes || ul.childNodes.length==0) 
 			return;
 
